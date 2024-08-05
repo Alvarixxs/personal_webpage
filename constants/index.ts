@@ -93,7 +93,8 @@ export const LanguagesItems = [
     label: "C",
     imageSrc: "/icons/c-original.svg",
     route: ""
-  }]
+  }
+  ]
 
 export const FrameworkItems = [
   {
@@ -137,11 +138,7 @@ export const FrameworkItems = [
     imageSrc: "/icons/postgresql-original.svg",
     route: "https://postgreSQL.com/",
   },
-  {
-    label: "Playwright",
-    imageSrc: "/icons/playwright-original.svg",
-    route: "https://playwright.dev/",
-  }]
+  ]
 
 export const LangItems = [
   {

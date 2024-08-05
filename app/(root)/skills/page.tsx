@@ -19,7 +19,7 @@ const Skills = () => {
       <Animated className="text-5xl md:text-6xl mb-20 lg:mr-28 lg:ml-32 mx-6">
         <h1>{SkillsTitle}</h1>
       </Animated>
-      <Animated className="text-2xl font-light mb-10 ml-20">
+      <Animated className="text-2xl font-light mb-10 mx-8 lg:ml-20">
         <p>{SkillsItems}</p>
       </Animated>
       <div className="mb-10 mx-10 flex gap-10 justify-evenly">
@@ -45,7 +45,7 @@ const Skills = () => {
         </div>
       </div>
       <Animated className="">
-        <div className="flex justify-evenly">
+        <div className="flex flex-wrap justify-evenly gap-10">
           {LangItems.map((item) => (
             <Link key={item.route} href={item.route} target={item.route && "_blank"}>
               <p className="font-bold uppercase text-lg">{item.language}</p>

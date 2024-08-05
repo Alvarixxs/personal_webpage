@@ -7,15 +7,31 @@
 }
 
 .content {
-    @apply bg-black text-white 2xl:w-1/2 lg:w-3/4 flex flex-col items-center justify-between
+    @apply bg-black w-full 2xl:w-1/2 lg:w-3/4 flex flex-col items-center justify-between gap-10 md:gap-0
 }
 
 .section {
-    @apply w-full
+    @apply w-full border-t pt-8 md:border-none md:pt-0 border-t-neutral-400
 }
 
 .header {
-    @apply mt-10 mx-2 md:mr-10 self-end flex gap-10 text-base
+    @apply self-end
+}
+
+.desktop-header {
+    @apply mt-10 mx-2 md:mr-10 gap-10 text-base hidden md:flex
+}
+
+.mobile-header {
+    @apply md:hidden w-full flex flex-col gap-2 pt-8 pr-8
+}
+
+.mobile-menu {
+    @apply w-full h-full p-8 border-t border-t-neutral-400 flex flex-col text-2xl gap-8
+}
+
+.bar {
+    @apply w-8 border transition ease-linear
 }
 
 .footer {
@@ -23,7 +39,7 @@
 }
 
 .logo {
-    @apply absolute top-10 left-14 fill-white hidden md:block
+    @apply absolute top-3 md:top-10 left-4 md:left-14 fill-white scale-75 md:scale-100
 }
 
 .awards-table {

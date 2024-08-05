@@ -26,7 +26,7 @@ const Contact = () => {
       <Animated className="mb-20 mx-6 md:mx-20 text-3xl">
         <h2>{ContactDesc}</h2>
       </Animated>
-      <Animated className="mb-4 mx-6 text-3xl md:text-5xl pb-4 border-b transition-colors duration-500 hover-link">
+      <Animated className="mb-4 mx-6 text-[28px] md:text-5xl pb-4 border-b transition-colors duration-500 hover-link">
         <a href={`mailto:${Email}`}>{Email}</a>
       </Animated>
       <Animated className="mb-20 mx-6 text-3xl md:text-5xl pb-4 text-end border-b">

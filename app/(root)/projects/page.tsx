@@ -6,8 +6,8 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <section>
-      <Animated className="text-[27px] mb-10 lg:ml-32 mx-6 mt-5">
+    <section className="section">
+      <Animated className="text-[27px] mb-10 lg:ml-32 mx-6">
         <h2>{ProjectsSubtitle}</h2>
       </Animated>
       <Animated className="text-5xl md:text-6xl mb-14 lg:mr-28 lg:ml-32 mx-6">
