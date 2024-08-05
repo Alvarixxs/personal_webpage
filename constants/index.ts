@@ -197,8 +197,22 @@ export const Email = "alvarodesants@gmail.com"
 
 export const PhoneNumber = "(+34) 656 413 858"
 
-export const X = "https://x.com/alvarodesants"
+export const ContactItems = [
+  {
+    label: "X",
+    imageSrc: "/icons/x.svg",
+    route: "https://x.com/alvarodesants",
+  },
+  {
+    label: "Linkedin",
+    imageSrc: "/icons/linkedin.svg",
+    route: "https://www.linkedin.com/in/álvaro-de-santos-de-la-pedraja-101391308",
+  },
+  {
+    label: "Github",
+    imageSrc: "/icons/github.svg",
+    route: "https://github.com/Alvarixxs"
+  }
+]
 
-export const Github = "https://github.com/Alvarixxs"
-
-export const Linkedin = "https://www.linkedin.com/in/álvaro-de-santos-de-la-pedraja-101391308"
+export const Location = "Ottawa, Canada"

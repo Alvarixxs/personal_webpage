@@ -1,18 +1,15 @@
 import React from "react";
 import Animated from "@/components/shared/Animated";
 import {
-  AwardsSubtitle,
-  ContactDesc,
+  ContactDesc, ContactItems,
   ContactSubtitle,
   ContactTitle,
-  Email,
-  Github,
-  Linkedin,
+  Email, Location,
   PhoneNumber,
-  X
 } from "@/constants";
 import Link from "next/link";
 import Image from "next/image";
+import CurrentTime from "@/components/shared/CurrentTime";
 
 const Contact = () => {
   return (
@@ -32,19 +29,33 @@ const Contact = () => {
       <Animated className="mb-20 mx-6 text-3xl md:text-5xl pb-4 text-end border-b">
         <p>{PhoneNumber}</p>
       </Animated>
-      <Animated className="mx-10">
-        <div className="flex gap-6">
-          <Link href={X} target="_blank">
-            <Image src="/icons/x.svg" alt="x logo" height={30} width={30} className="white-logo hover-logo"/>
-          </Link>
-          <Link href={Linkedin} target="_blank">
-            <Image src="/icons/linkedin.svg" alt="linkedin logo" width={30} height={30} className="white-logo hover-logo"/>
-          </Link>
-          <Link href={Github} target="_blank">
-            <Image src="/icons/github.svg" alt="github logo" width={30} height={30} className="white-logo hover-logo"/>
-          </Link>
+      <div className="mx-10">
+        <div className="flex justify-between flex-wrap gap-10">
+          <div className="flex flex-col gap-4">
+            <Animated><p className="text-3xl font-bold">My Digital Spaces.</p></Animated>
+            <Animated>
+              <div className="flex gap-6">
+                {ContactItems.map((item) => (
+                  <Link key={item.label} href={item.route} target="_blank">
+                    <Image
+                      src={item.imageSrc}
+                      alt={`${item.label} icon`}
+                      height={30}
+                      width={30}
+                      className="white-logo hover-logo"
+                    />
+                  </Link>
+                ))}
+              </div>
+            </Animated>
+          </div>
+          <div className="flex flex-col">
+            <Animated><p className="text-3xl font-bold mb-2">Location.</p></Animated>
+            <Animated><p className="text-2xl">{Location}</p></Animated>
+            <Animated><CurrentTime/></Animated>
+          </div>
         </div>
-      </Animated>
+      </div>
     </section>
   )
 }
