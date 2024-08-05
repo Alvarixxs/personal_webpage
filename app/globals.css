@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root {
+    @apply md:bg-root-gradient bg-cover xl:bg-contain bg-no-repeat min-h-screen flex justify-end text-white
+}
+
+.content {
+    @apply bg-black text-white 2xl:w-1/2 lg:w-3/4 flex flex-col items-center justify-between
+}
+
+.section {
+    @apply w-full
+}
+
+.header {
+    @apply mt-10 mx-2 md:mr-10 self-end flex gap-10 text-base
+}
+
+.footer {
+    @apply w-full flex justify-between text-sm text-neutral-400 p-6
+}
+
+.logo {
+    @apply absolute top-10 left-14 fill-white hidden md:block
+}
+
+.awards-table {
+    @apply mb-12 ml-8 lg:ml-32 mr-8 flex flex-col
+}
+
+.awards-row {
+    @apply flex pt-6 pb-9 font-light
+}
+
+.awards-separator {
+    @apply border-b border-b-neutral-600 hover:border-b-orange-600 transition-colors
+}
+
+.awards-item-1 {
+    @apply w-14 md:w-32
+}
+
+.awards-item-2 {
+    @apply w-36 md:w-64
+}
+
+.awards-item-3 {
+    @apply w-36 md:w-64
+}
+
+.awards-item-4 {
+    @apply group-hover:border-b-orange-600 self-center
+}
+
+.nav-link {
+    @apply transition-colors border-b text-white border-white
+}
+
+.active-link {
+    @apply text-orange-600 border-orange-600
+}
+
+.active-logo {
+    filter: brightness(0) saturate(100%) invert(39%) sepia(32%) saturate(3772%) hue-rotate(358deg) brightness(95%) contrast(95%);}
+
+.white-logo {
+    filter: brightness(0) saturate(100%) invert(97%) sepia(4%) saturate(0%) hue-rotate(55deg) brightness(119%) contrast(100%);
+}
+
+.gray-icon {
+    filter: brightness(0) saturate(100%) invert(31%) sepia(0%) saturate(1%) hue-rotate(215deg) brightness(94%) contrast(85%);
+}
+
+.hover-logo:hover, .group:hover .group-hover\:border-b-orange-600 {
+    filter: brightness(0) saturate(100%) invert(39%) sepia(32%) saturate(3772%) hue-rotate(358deg) brightness(95%) contrast(95%);
+}
+
+.hover-link {
+    @apply hover:text-orange-500 hover:border-b-orange-600 group-hover:border-b-orange-600
+}
+
+.hover-rotate {
+    @apply hover:rotate-[360deg] transition-transform duration-1000 ease-in-out
+}
+
+.appear-from-below {
+    @apply animate-appearFromBelow
+}
