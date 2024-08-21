@@ -2,41 +2,47 @@
 
 export const navLinks = [
   {
-    label: 'PROJECTS',
-    route: '/projects'
+    label: "PROJECTS",
+    route: "/projects",
   },
   {
-    label: 'SKILLS',
-    route: '/skills'
+    label: "SKILLS",
+    route: "/skills",
   },
   {
-    label: 'AWARDS',
-    route: '/awards'
+    label: "AWARDS",
+    route: "/awards",
   },
   {
-    label: 'CONTACT',
-    route: '/contact'
+    label: "CONTACT",
+    route: "/contact",
   },
-]
+];
 
 /* Hero section */
 
-export const HeroName = "I'M ÁLVARO DE SANTOS"
+export const HeroName = "I'M ÁLVARO DE SANTOS";
 
-export const HeroTitle = "SOFTWARE DEVELOPER, TECH ENTHUSIAST, MAJOR IN CS AND MATH."
+export const HeroTitle =
+  "SOFTWARE DEVELOPER, TECH ENTHUSIAST, MAJOR IN CS AND MATH.";
 
-export const HeroDesc = "I am an ambitious and passionate student at the Autonomous University of Madrid. With a solid academic foundation and a diverse portfolio of self-driven projects, I am eager to apply my skills and knowledge to real-world challenges and innovative solutions in the tech industry."
+export const HeroDesc =
+  "I am an ambitious and passionate student at the Autonomous University of Madrid. With a solid academic foundation and a diverse portfolio of self-driven projects, I am eager to apply my skills and knowledge to real-world challenges and innovative solutions in the tech industry.";
+
+export const HeroHobbies =
+  "I enjoy sports ⚽ (running, gym, hiking), tech related youtube content 💻 and hackathons 🚀";
 
 /* projects section */
 
-export const ProjectsTitle = "MY PORTFOLIO PROJECTS."
+export const ProjectsTitle = "MY PORTFOLIO PROJECTS.";
 
-export const ProjectsSubtitle = "PROJECTS"
+export const ProjectsSubtitle = "PROJECTS";
 
 export const ProjectsItems = [
   {
     title: "IMAGINIFY",
-    description: "Web app that simulates a stock photo database for users. Users can log in to the application and perform transformations to images leveraging the power of AI. Users can also upload, delete and update photos.",
+    description:
+      "Web app that simulates a stock photo database for users. Users can log in to the application and perform transformations to images leveraging the power of AI. Users can also upload, delete and update photos.",
     github: "https://github.com/Alvarixxs/nextjs-imaginify",
     website: "https://nextjs-imaginify-omega.vercel.app",
     year: "2024",
@@ -45,21 +51,23 @@ export const ProjectsItems = [
   },
   {
     title: "RATE REPOSITORY APP",
-    description: "Mobile application which shows ratings for several demo github repositories. Users can sign up and log in. They can navigate to specific repository pages, and comment publicly. They can also modify their existing reviews.",
+    description:
+      "Mobile application which shows ratings for several demo github repositories. Users can sign up and log in. They can navigate to specific repository pages, and comment publicly. They can also modify their existing reviews.",
     github: "https://github.com/Alvarixxs/Rate-repository-app",
     year: "2024",
     skills: ["React Native", "GraphQL", "CSS"],
     imageSrc: "/images/rate-repository-app.png",
-  }
-]
+  },
+];
 
 /* skills section */
 
-export const SkillsTitle = "MY DIGITAL TOOLBOX."
+export const SkillsTitle = "MY DIGITAL TOOLBOX.";
 
-export const SkillsSubtitle = "SKILLS & LANGUAGES"
+export const SkillsSubtitle = "SKILLS & LANGUAGES";
 
-export const SkillsItems = "Web Development, Web Design, Front-End Development, Back-End Development, Full-Stack Development"
+export const SkillsItems =
+  "Web Development, Web Design, Front-End Development, Back-End Development, Full-Stack Development";
 
 /* awards section */
 
@@ -77,24 +85,24 @@ export const LanguagesItems = [
   {
     label: "Python",
     imageSrc: "/icons/python-original.svg",
-    route: "https://www.python.org/"
+    route: "https://www.python.org/",
   },
   {
     label: "Java",
     imageSrc: "/icons/java-original.svg",
-    route: "https://www.java.com/en/"
+    route: "https://www.java.com/en/",
   },
   {
     label: "SQL",
     imageSrc: "/icons/sql-original.svg",
-    route: "https://www.sql.org/"
+    route: "https://www.sql.org/",
   },
   {
     label: "C",
     imageSrc: "/icons/c-original.svg",
-    route: ""
-  }
-  ]
+    route: "",
+  },
+];
 
 export const FrameworkItems = [
   {
@@ -131,14 +139,13 @@ export const FrameworkItems = [
     label: "MongoDB",
     imageSrc: "/icons/mongodb-original.svg",
     route: "https://www.mongodb.com/",
-
   },
   {
     label: "PostgreSQL",
     imageSrc: "/icons/postgresql-original.svg",
     route: "https://postgreSQL.com/",
   },
-  ]
+];
 
 export const LangItems = [
   {
@@ -155,12 +162,12 @@ export const LangItems = [
     language: "Spanish",
     proficiency: "Native or bilingual proficiency",
     route: "/assets/languages/spanishIGCSE.pdf",
-  }
-]
+  },
+];
 
-export const AwardsTitle = "RECOGNITIONS."
+export const AwardsTitle = "RECOGNITIONS.";
 
-export const AwardsSubtitle = "HONORS & AWARDS"
+export const AwardsSubtitle = "HONORS & AWARDS";
 
 export const AwardsItems = [
   {
@@ -181,21 +188,22 @@ export const AwardsItems = [
     award: "Honor's Scholarship",
     route: "/assets/awards/HonorsScholarship2021.pdf",
   },
-]
+];
 
-export const ResumeRoute = "/assets/files/Resume-AlvarodeSantos.pdf"
+export const ResumeRoute = "/assets/files/Resume-AlvarodeSantos.pdf";
 
 /* contact section */
 
-export const ContactTitle = "GET IN TOUCH."
+export const ContactTitle = "GET IN TOUCH.";
 
-export const ContactSubtitle = "CONTACT"
+export const ContactSubtitle = "CONTACT";
 
-export const ContactDesc = "I would be happy to further discuss my experiences with you, simply shoot me an email or message me on LinkedIn!"
+export const ContactDesc =
+  "I would be happy to further discuss my experiences with you, simply shoot me an email or message me on LinkedIn!";
 
-export const Email = "alvarodesants@gmail.com"
+export const Email = "alvarodesants@gmail.com";
 
-export const PhoneNumber = "(+34) 656 413 858"
+export const PhoneNumber = "(+34) 656 413 858";
 
 export const ContactItems = [
   {
@@ -206,13 +214,14 @@ export const ContactItems = [
   {
     label: "Linkedin",
     imageSrc: "/icons/linkedin.svg",
-    route: "https://www.linkedin.com/in/álvaro-de-santos-de-la-pedraja-101391308",
+    route:
+      "https://www.linkedin.com/in/álvaro-de-santos-de-la-pedraja-101391308",
   },
   {
     label: "Github",
     imageSrc: "/icons/github.svg",
-    route: "https://github.com/Alvarixxs"
-  }
-]
+    route: "https://github.com/Alvarixxs",
+  },
+];
 
-export const Location = "Ottawa, Canada"
+export const Location = "Ottawa, Canada";

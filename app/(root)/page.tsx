@@ -1,6 +1,6 @@
 import React from "react";
 import Animated from "@/components/shared/Animated";
-import { HeroDesc, HeroName, HeroTitle } from "@/constants";
+import { HeroDesc, HeroHobbies, HeroName, HeroTitle } from "@/constants";
 import Image from "next/image";
 
 const Hero = () => {
@@ -21,8 +21,11 @@ const Hero = () => {
           className="md:hidden mx-auto px-2 py-20"
         />
       </Animated>
-      <Animated className="text-2xl leading-normal mb-10 lg:mr-28 lg:ml-72 mx-6">
+      <Animated className="text-2xl leading-normal mb-10 md:mb-20 lg:mr-28 lg:ml-72 mx-6">
         <p>{HeroDesc}</p>
+      </Animated>
+      <Animated className="text-xl mx-6 md:text-center">
+        <p>{HeroHobbies}</p>
       </Animated>
     </section>
   );
