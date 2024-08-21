@@ -14,11 +14,11 @@ const Hero = () => {
       </Animated>
       <Animated>
         <Image
-          src="/backgrounds/home-self.jpg"
+          src="/images/mobile-self.jpg"
           alt=""
           width={400}
           height={30}
-          className="md:hidden mx-auto px-2 py-20"
+          className="md:hidden mx-auto px-2 py-10"
         />
       </Animated>
       <Animated className="text-2xl leading-normal mb-10 md:mb-20 lg:mr-28 lg:ml-72 mx-6">

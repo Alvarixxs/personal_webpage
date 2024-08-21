@@ -100,7 +100,7 @@
 }
 
 .hover-link {
-  @apply hover:text-orange-500 hover:border-b-orange-600 group-hover:border-b-orange-600;
+  @apply hover:text-orange-500 hover:border-b-orange-600 group-hover:border-b-orange-600 bg-black;
 }
 
 .hover-rotate {
@@ -113,4 +113,8 @@
 
 .appear-from-left {
   @apply animate-appearFromLeft;
+}
+
+.disappear-from-left {
+  @apply animate-disappearFromLeft;
 }

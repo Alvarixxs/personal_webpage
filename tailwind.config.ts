@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "root-gradient": "url('/backgrounds/macos-monterey-compressed.jpg')",
-        "home-self": "url('/backgrounds/home-self.jpg')",
+        "root-gradient": "url('/images/macos-monterey-compressed.jpg')",
+        "home-self": "url('/images/home-self.jpg')",
       },
       keyframes: {
         appearFromBelow: {
@@ -21,10 +21,15 @@ const config: Config = {
           "0%": { transform: "translateX(-100%)" },
           "100%": { transform: "translateX(0)" },
         },
+        disappearFromLeft: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
       },
       animation: {
         appearFromBelow: "appearFromBelow 1s ease-out forwards",
         appearFromLeft: "appearFromLeft 1s ease-out forwards",
+        disappearFromLeft: "disappearFromLeft 1s ease-out forwards",
       },
       screens: {
         "3xl": "1600px",
