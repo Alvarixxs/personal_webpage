@@ -2,6 +2,7 @@ import React from "react";
 import Header from "@/components/shared/Header";
 import Logo from "@/components/shared/Logo";
 import Footer from "@/components/shared/Footer";
+import ConditionalBackground from "@/components/shared/ConditionalBackground";
 
 export default function Layout({
                                      children,
@@ -9,7 +10,7 @@ export default function Layout({
   children: React.ReactNode;
 }>) {
   return (
-    <main className="root">
+    <ConditionalBackground>
       <div className="logo hover-rotate">
         <Logo />
       </div>
@@ -18,6 +19,6 @@ export default function Layout({
         {children}
         <Footer />
       </div>
-    </main>
+    </ConditionalBackground>
   );
 }

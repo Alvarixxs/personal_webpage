@@ -3,104 +3,114 @@
 @tailwind utilities;
 
 .root {
-    @apply md:bg-root-gradient bg-cover xl:bg-contain bg-no-repeat min-h-screen flex justify-end text-white
+  @apply bg-cover xl:bg-contain bg-no-repeat min-h-screen flex justify-end text-white relative overflow-hidden;
 }
 
 .content {
-    @apply bg-black w-full 2xl:w-1/2 lg:w-3/4 flex flex-col items-center justify-between gap-10 md:gap-0
+  @apply bg-black w-full 2xl:w-1/2 lg:w-3/4 flex flex-col items-center justify-between gap-10 md:gap-0;
 }
 
 .section {
-    @apply w-full border-t pt-8 md:border-none md:pt-0 border-t-neutral-400
+  @apply w-full border-t pt-8 md:border-none md:pt-0 border-t-neutral-400;
 }
 
 .header {
-    @apply self-end
+  @apply self-end;
 }
 
 .desktop-header {
-    @apply mt-10 mx-2 md:mr-10 gap-10 text-base hidden md:flex
+  @apply mt-10 mx-2 md:mr-10 gap-10 text-base hidden md:flex;
 }
 
 .mobile-header {
-    @apply md:hidden w-full flex flex-col gap-2 pt-8 pr-8
+  @apply md:hidden w-full flex flex-col gap-2 pt-8 pr-8;
 }
 
 .mobile-menu {
-    @apply w-full h-full p-8 border-t border-t-neutral-400 flex flex-col text-2xl gap-8
+  @apply w-full h-full p-8 border-t border-t-neutral-400 flex flex-col text-2xl gap-8;
 }
 
 .bar {
-    @apply w-8 border transition ease-linear
+  @apply w-8 border transition ease-linear;
 }
 
 .footer {
-    @apply w-full flex justify-between text-sm text-neutral-400 p-6
+  @apply w-full flex justify-between text-sm text-neutral-400 p-6;
 }
 
 .logo {
-    @apply absolute top-3 md:top-10 left-4 md:left-14 fill-white scale-75 md:scale-100
+  @apply absolute top-3 md:top-10 left-4 md:left-14 fill-white scale-75 md:scale-100;
 }
 
 .awards-table {
-    @apply mb-12 ml-8 lg:ml-32 mr-8 flex flex-col
+  @apply mb-12 ml-8 lg:ml-32 mr-8 flex flex-col;
 }
 
 .awards-row {
-    @apply flex pt-6 pb-9 font-light
+  @apply flex pt-6 pb-9 font-light;
 }
 
 .awards-separator {
-    @apply border-b border-b-neutral-600 hover:border-b-orange-600 transition-colors
+  @apply border-b border-b-neutral-600 hover:border-b-orange-600 transition-colors;
 }
 
 .awards-item-1 {
-    @apply w-14 md:w-32
+  @apply w-14 md:w-32;
 }
 
 .awards-item-2 {
-    @apply w-36 md:w-64
+  @apply w-36 md:w-64;
 }
 
 .awards-item-3 {
-    @apply w-36 md:w-64
+  @apply w-36 md:w-64;
 }
 
 .awards-item-4 {
-    @apply group-hover:border-b-orange-600 self-center
+  @apply group-hover:border-b-orange-600 self-center;
 }
 
 .nav-link {
-    @apply transition-colors border-b text-white border-white
+  @apply transition-colors border-b text-white border-white;
 }
 
 .active-link {
-    @apply text-orange-600 border-orange-600
+  @apply text-orange-600 border-orange-600;
 }
 
 .active-logo {
-    filter: brightness(0) saturate(100%) invert(39%) sepia(32%) saturate(3772%) hue-rotate(358deg) brightness(95%) contrast(95%);}
+  filter: brightness(0) saturate(100%) invert(39%) sepia(32%) saturate(3772%)
+    hue-rotate(358deg) brightness(95%) contrast(95%);
+}
 
 .white-logo {
-    filter: brightness(0) saturate(100%) invert(97%) sepia(4%) saturate(0%) hue-rotate(55deg) brightness(119%) contrast(100%);
+  filter: brightness(0) saturate(100%) invert(97%) sepia(4%) saturate(0%)
+    hue-rotate(55deg) brightness(119%) contrast(100%);
 }
 
 .gray-icon {
-    filter: brightness(0) saturate(100%) invert(31%) sepia(0%) saturate(1%) hue-rotate(215deg) brightness(94%) contrast(85%);
+  filter: brightness(0) saturate(100%) invert(31%) sepia(0%) saturate(1%)
+    hue-rotate(215deg) brightness(94%) contrast(85%);
 }
 
-.hover-logo:hover, .group:hover .group-hover\:border-b-orange-600 {
-    filter: brightness(0) saturate(100%) invert(39%) sepia(32%) saturate(3772%) hue-rotate(358deg) brightness(95%) contrast(95%);
+.hover-logo:hover,
+.group:hover .group-hover\:border-b-orange-600 {
+  filter: brightness(0) saturate(100%) invert(39%) sepia(32%) saturate(3772%)
+    hue-rotate(358deg) brightness(95%) contrast(95%);
 }
 
 .hover-link {
-    @apply hover:text-orange-500 hover:border-b-orange-600 group-hover:border-b-orange-600
+  @apply hover:text-orange-500 hover:border-b-orange-600 group-hover:border-b-orange-600;
 }
 
 .hover-rotate {
-    @apply hover:rotate-[360deg] transition-transform duration-1000 ease-in-out
+  @apply hover:rotate-[360deg] transition-transform duration-1000 ease-in-out;
 }
 
 .appear-from-below {
-    @apply animate-appearFromBelow
+  @apply animate-appearFromBelow;
+}
+
+.appear-from-left {
+  @apply animate-appearFromLeft;
 }

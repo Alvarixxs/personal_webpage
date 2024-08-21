@@ -30,7 +30,7 @@ const Contact = () => {
         <p>{PhoneNumber}</p>
       </Animated>
       <div className="mx-10">
-        <div className="flex justify-between flex-wrap gap-10">
+        <div className="flex justify-around flex-wrap gap-10">
           <div className="flex flex-col gap-4">
             <Animated><p className="text-3xl font-bold">My Digital Spaces.</p></Animated>
             <Animated>
