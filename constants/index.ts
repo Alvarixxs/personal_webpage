@@ -201,7 +201,7 @@ export const FrameworkItems = [
     route: "",
   },
   {
-    label: "CSS/Tailwind",
+    label: "Tailwind",
     imageSrc: "/icons/tailwindcss-original.svg",
     route: "https://tailwindcss.com/",
   },

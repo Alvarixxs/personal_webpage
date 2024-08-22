@@ -39,7 +39,7 @@
 }
 
 .footer {
-  @apply w-full flex justify-between text-sm text-neutral-400 p-6 bg-black lg:sticky lg:bottom-0 lg:right-0;
+  @apply w-full flex justify-between text-sm text-neutral-400 px-6 py-4 bg-black lg:sticky lg:bottom-0 lg:right-0 border-t border-t-neutral-400 md:border-t-0;
 }
 
 .logo {
