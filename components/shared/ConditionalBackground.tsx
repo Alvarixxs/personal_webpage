@@ -14,7 +14,7 @@ const ConditionalBackground = ({ children }: { children: React.ReactNode }) => {
         alt=""
         width={1280}
         height={1000}
-        className={`hidden lg:block absolute top-0 left-0 h-screen -z-20`}
+        className={`hidden lg:block absolute lg:fixed top-0 left-0 h-screen -z-20`}
       />
       <Image
         src="/images/home-self.jpg"

@@ -46,7 +46,7 @@ export const ProjectsItems = [
     github: "https://github.com/Alvarixxs/nextjs-imaginify",
     website: "https://nextjs-imaginify-omega.vercel.app",
     year: "2024",
-    skills: ["Next.js", "TypeScript", "Tailwind CSS"],
+    skills: ["Fullstack", "Next.js", "TypeScript"],
     imageSrc: "/images/imaginify.png",
   },
   {
@@ -55,8 +55,59 @@ export const ProjectsItems = [
       "Mobile application which shows ratings for several demo github repositories. Users can sign up and log in. They can navigate to specific repository pages, and comment publicly. They can also modify their existing reviews.",
     github: "https://github.com/Alvarixxs/Rate-repository-app",
     year: "2024",
-    skills: ["React Native", "GraphQL", "CSS"],
+    skills: ["Frontend", "React Native", "GraphQL"],
     imageSrc: "/images/rate-repository-app.png",
+  },
+];
+
+export const ProjectsMoreItems = [
+  {
+    title: "PERSONAL WEBPAGE",
+    description:
+      "Welcome to my personal webpage! This project is a modern, responsive portfolio site designed to showcase my skills, projects, and professional background. It is built using Nextjs, Typescript, and TailwindCSS, emphasizing a clean and intuitive user experience.",
+    github: "https://github.com/Alvarixxs/personal_webpage",
+    website: "https://personal-webpage-lovat-ten.vercel.app/",
+    year: "2024",
+    skills: ["Frontend", "Next.js", "Tailwind CSS"],
+    imageSrc: "/images/personal_webpage.png",
+  },
+  {
+    title: "STRAW LANDING PAGE",
+    description:
+      "This repository contains the source code for a modern and responsive landing page built using Next.js, Tailwind CSS, and hosted on Vercel. The project demonstrates the power of combining these technologies to create a fast, scalable, and visually appealing web experience.",
+    github: "https://github.com/Alvarixxs/nextjs-straw",
+    website: "https://nextjs-straw.vercel.app/",
+    year: "2024",
+    skills: ["Frontend", "Next.js", "Tailwind CSS"],
+    imageSrc: "/images/straw.png",
+  },
+  {
+    title: "FURNIRO SERVER",
+    description:
+      "This repository contains the backend code for the Furniro e-commerce furniture application. The server is built using Node.js, and it follows best practices for modern backend development. It is connected to a Supabase instance, utilizing a relational SQL database and the Sequelize ORM for managing data.",
+    github: "https://github.com/Alvarixxs/furniro-server",
+    year: "2024",
+    skills: ["Backend", "Node.js", "SQL"],
+    imageSrc: "/images/furniro-server.png",
+  },
+  {
+    title: "CV APPLICATION",
+    description:
+      "This repository contains the source code for the Odin CV Application, a project developed as part of The Odin Project curriculum. This application serves as an introduction to building interactive web applications using React.",
+    github: "https://github.com/Alvarixxs/odin_cv_application",
+    website: "https://odin-cv-application-psi.vercel.app/",
+    year: "2024",
+    skills: ["Frontend", "React.js", "CSS"],
+    imageSrc: "/images/cv-app.png",
+  },
+  {
+    title: "DEVFLOW",
+    description: "Modern stack overflow copy. Currently in development.",
+    github: "https://github.com/Alvarixxs/nextjs-devflow",
+    website: "",
+    year: "2024",
+    skills: ["Fullstack", "Next.js", "Typescript"],
+    imageSrc: "/images/coming_soon.png",
   },
 ];
 

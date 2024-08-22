@@ -1,10 +1,12 @@
 import React from "react";
 import Animated from "@/components/shared/Animated";
 import {
-  ContactDesc, ContactItems,
+  ContactDesc,
+  ContactItems,
   ContactSubtitle,
   ContactTitle,
-  Email, Location,
+  Email,
+  Location,
   PhoneNumber,
 } from "@/constants";
 import Link from "next/link";
@@ -23,16 +25,18 @@ const Contact = () => {
       <Animated className="mb-20 mx-6 md:mx-20 text-3xl">
         <h2>{ContactDesc}</h2>
       </Animated>
-      <Animated className="mb-4 mx-6 text-[28px] md:text-5xl pb-4 border-b transition-colors duration-500 hover-link">
+      <Animated className="mb-4 mx-6 text-[28px] md:text-5xl pb-4 border-b hover-link">
         <a href={`mailto:${Email}`}>{Email}</a>
       </Animated>
       <Animated className="mb-20 mx-6 text-3xl md:text-5xl pb-4 text-end border-b">
         <p>{PhoneNumber}</p>
       </Animated>
       <div className="mx-10">
-        <div className="flex justify-around flex-wrap gap-10">
+        <div className="flex justify-around items-left flex-col md:flex-row gap-10">
           <div className="flex flex-col gap-4">
-            <Animated><p className="text-3xl font-bold">My Digital Spaces.</p></Animated>
+            <Animated>
+              <p className="text-3xl font-bold">My Digital Spaces.</p>
+            </Animated>
             <Animated>
               <div className="flex gap-6">
                 {ContactItems.map((item) => (
@@ -50,14 +54,20 @@ const Contact = () => {
             </Animated>
           </div>
           <div className="flex flex-col">
-            <Animated><p className="text-3xl font-bold mb-2">Location.</p></Animated>
-            <Animated><p className="text-2xl">{Location}</p></Animated>
-            <Animated><CurrentTime/></Animated>
+            <Animated>
+              <p className="text-3xl font-bold mb-2">Location.</p>
+            </Animated>
+            <Animated>
+              <p className="text-2xl">{Location}</p>
+            </Animated>
+            <Animated>
+              <CurrentTime />
+            </Animated>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

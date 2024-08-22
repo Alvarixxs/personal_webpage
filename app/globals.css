@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .root {
-  @apply bg-cover xl:bg-contain bg-no-repeat min-h-screen flex justify-end text-white relative overflow-hidden;
+  @apply bg-cover xl:bg-contain bg-no-repeat min-h-screen flex justify-end text-white relative;
 }
 
 .content {
-  @apply bg-black w-full 2xl:w-1/2 lg:w-3/4 flex flex-col items-center justify-between gap-10 md:gap-0;
+  @apply bg-black w-full 2xl:w-1/2 lg:w-3/4 flex flex-col items-center justify-between gap-10 md:gap-0 relative;
 }
 
 .section {
@@ -35,11 +35,11 @@
 }
 
 .footer {
-  @apply w-full flex justify-between text-sm text-neutral-400 p-6;
+  @apply w-full flex justify-between text-sm text-neutral-400 p-6 bg-black lg:sticky lg:bottom-0 lg:right-0;
 }
 
 .logo {
-  @apply absolute top-3 md:top-10 left-4 md:left-14 fill-white scale-75 md:scale-100;
+  @apply absolute lg:fixed top-3 md:top-10 left-4 md:left-14 fill-white scale-75 md:scale-100;
 }
 
 .awards-table {
@@ -68,6 +68,10 @@
 
 .awards-item-4 {
   @apply group-hover:border-b-orange-600 self-center;
+}
+
+.projects-more {
+  @apply px-10 w-full flex flex-col relative border-t border-t-neutral-400 md:border-t-0;
 }
 
 .nav-link {
@@ -100,7 +104,7 @@
 }
 
 .hover-link {
-  @apply hover:text-orange-500 hover:border-b-orange-600 group-hover:border-b-orange-600 bg-black;
+  @apply hover:text-orange-500 hover:border-b-orange-600 group-hover:border-b-orange-600 bg-black  transition-colors duration-500;
 }
 
 .hover-rotate {
