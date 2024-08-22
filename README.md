@@ -8,14 +8,14 @@
 [tailwindcss-url]: https://tailwindcss.com/
 
 [linkedin]: https://img.shields.io/badge/linkedin-%23007ACC.svg?style=for-the-badge&logo=linkedin&logoColor=white
-
+[github]: https://img.shields.io/badge/github-%23007ACC.svg?style=for-the-badge&logo=github&logoColor=white
 
 # Personal Webpage
 
 Welcome to my personal webpage! This project is a modern, responsive portfolio site designed to showcase my skills, projects, and professional background. It is built using **HTML**, **CSS**, and **JavaScript**, emphasizing a clean and intuitive user experience.  
 
 Link to my socials:  
-<a href="http://www.linkedin.com/in/álvaro-de-santos-de-la-pedraja-101391308">[![linkedin][linkedin]]</a> <a href="https://github.com/Alvarixxs">Github</a>
+<a href="http://www.linkedin.com/in/álvaro-de-santos-de-la-pedraja-101391308">![linkedin][linkedin]</a> <a href="https://github.com/Alvarixxs">![github][github]</a>
 
 ## Features
 
