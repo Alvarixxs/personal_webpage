@@ -16,7 +16,7 @@ Welcome to my personal webpage! This project is a modern, responsive portfolio s
 
 Link to my socials:  
 <a href="http://www.linkedin.com/in/álvaro-de-santos-de-la-pedraja-101391308" target="_blank">![linkedin][linkedin]</a> 
-<a href="https://github.com/Alvarixxs target="_blank">![github][github]</a>
+<a href="https://github.com/Alvarixxs" target="_blank">![github][github]</a>
 
 ## Features
 
