@@ -7,8 +7,8 @@
 [tailwindcss]: https://img.shields.io/badge/Tailwind_CSS-%231a202c.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
 [tailwindcss-url]: https://tailwindcss.com/
 
-[linkedin]: https://img.shields.io/badge/linkedin-%23007ACC.svg?style=for-the-badge&logo=linkedin&logoColor=white
-[github]: https://img.shields.io/badge/github-%23007ACC.svg?style=for-the-badge&logo=github&logoColor=white
+[linkedin]: https://img.shields.io/badge/linkedin-%23007ACC.svg?style=for-the-badge&logo=linkedin&logoColor=blue
+[github]: https://img.shields.io/badge/github-%23007ACC.svg?style=for-the-badge&logo=github&logoColor=black
 
 # Personal Webpage
 
