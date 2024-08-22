@@ -20,10 +20,7 @@ const Header = () => {
   };
 
   return pathname === "/projects/more" ? (
-    <Link
-      href="/projects"
-      className="self-end mt-4 translate-y-3 md:translate-y-0 mr-8 lg:m-0 lg:sticky lg:top-8 lg:right-8 z-20"
-    >
+    <Link href="/projects" className="projects-more-header">
       <Image
         src="/icons/arrow-left.svg"
         alt="arrow left"

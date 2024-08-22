@@ -26,6 +26,10 @@
   @apply md:hidden w-full flex flex-col gap-2 pt-8 pr-8;
 }
 
+.projects-more-header {
+  @apply self-end mr-8 mt-4 lg:flex lg:items-center lg:justify-end lg:pt-10 lg:pr-8 translate-y-3 md:translate-y-0 bg-black lg:m-0 lg:sticky lg:top-0 lg:right-0 z-20 lg:w-full lg:h-20;
+}
+
 .mobile-menu {
   @apply w-full h-full p-8 border-t border-t-neutral-400 flex flex-col text-2xl gap-8;
 }

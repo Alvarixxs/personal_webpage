@@ -62,6 +62,25 @@ export const ProjectsItems = [
 
 export const ProjectsMoreItems = [
   {
+    title: "IMAGINIFY",
+    description:
+      "Web app that simulates a stock photo database for users. Users can log in to the application and perform transformations to images leveraging the power of AI. Users can also upload, delete and update photos.",
+    github: "https://github.com/Alvarixxs/nextjs-imaginify",
+    website: "https://nextjs-imaginify-omega.vercel.app",
+    year: "2024",
+    skills: ["Fullstack", "Next.js", "TypeScript"],
+    imageSrc: "/images/imaginify.png",
+  },
+  {
+    title: "RATE REPOSITORY APP",
+    description:
+      "Mobile application which shows ratings for several demo github repositories. Users can sign up and log in. They can navigate to specific repository pages, and comment publicly. They can also modify their existing reviews.",
+    github: "https://github.com/Alvarixxs/Rate-repository-app",
+    year: "2024",
+    skills: ["Frontend", "React Native", "GraphQL"],
+    imageSrc: "/images/rate-repository-app.png",
+  },
+  {
     title: "PERSONAL WEBPAGE",
     description:
       "Welcome to my personal webpage! This project is a modern, responsive portfolio site designed to showcase my skills, projects, and professional background. It is built using Nextjs, Typescript, and TailwindCSS, emphasizing a clean and intuitive user experience.",
