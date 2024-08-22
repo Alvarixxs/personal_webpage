@@ -1,12 +1,6 @@
 import React from "react";
 import Animated from "@/components/shared/Animated";
-import {
-  AwardsSubtitle,
-  AwardsTitle,
-  ProjectsItems,
-  ProjectsSubtitle,
-  ProjectsTitle,
-} from "@/constants";
+import { ProjectsItems, ProjectsSubtitle, ProjectsTitle } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import ProjectCard from "@/components/shared/cards/ProjectCard";

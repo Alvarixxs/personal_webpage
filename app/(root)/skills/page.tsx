@@ -24,7 +24,7 @@ const Skills = () => {
         <p>{SkillsItems}</p>
       </Animated>
       <div className="mx-10 mb-10 flex justify-evenly gap-10">
-        <div className="just flex flex-col gap-4 text-xl">
+        <div className="flex flex-col gap-4 text-xl">
           {LanguagesItems.map((item) => (
             <Animated key={item.label}>
               <Link

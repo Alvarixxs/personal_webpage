@@ -32,7 +32,7 @@ const Contact = () => {
         <p>{PhoneNumber}</p>
       </Animated>
       <div className="mx-10">
-        <div className="items-left flex flex-col justify-around gap-10 md:flex-row">
+        <div className="flex flex-col items-start justify-around gap-10 md:flex-row">
           <div className="flex flex-col gap-4">
             <Animated>
               <p className="text-3xl font-bold">My Digital Spaces.</p>

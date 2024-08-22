@@ -36,7 +36,7 @@ const ProjectCardSm = ({
           </div>
         </Animated>
         <Animated>
-          <div className="text-md flex gap-2 font-light">
+          <div className="flex gap-2 text-sm font-light">
             <p className="flex items-center rounded-full border border-orange-600 px-2 text-orange-600">
               {year}
             </p>
