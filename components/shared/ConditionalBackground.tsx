@@ -14,14 +14,14 @@ const ConditionalBackground = ({ children }: { children: React.ReactNode }) => {
         alt=""
         width={1280}
         height={1000}
-        className={`hidden lg:block lg:fixed top-0 left-0 h-screen -z-20`}
+        className={`left-0 top-0 -z-20 hidden h-screen lg:fixed lg:block`}
       />
       <Image
         src="/images/home-self.jpg"
         alt=""
         width={1280}
         height={1000}
-        className={`hidden lg:block absolute top-0 -left-1/2 2xl:-left-1/4 4xl:left-0 h-screen w-auto -z-20 ${
+        className={`absolute -left-1/2 top-0 -z-20 hidden h-screen w-auto lg:block 2xl:-left-1/4 4xl:left-0 ${
           pathname === "/" ? "appear-from-left" : "disappear-from-left"
         }`}
       />

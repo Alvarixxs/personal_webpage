@@ -16,23 +16,23 @@ import CurrentTime from "@/components/shared/CurrentTime";
 const Contact = () => {
   return (
     <section className="section">
-      <Animated className="text-[27px] mb-10 lg:ml-32 mx-6">
+      <Animated className="mx-6 mb-10 text-[27px] lg:ml-32">
         <h2>{ContactSubtitle}</h2>
       </Animated>
-      <Animated className="mb-20 mx-6 md:ml-32 text-6xl">
+      <Animated className="mx-6 mb-20 text-6xl md:ml-32">
         <h1>{ContactTitle}</h1>
       </Animated>
-      <Animated className="mb-20 mx-6 md:mx-20 text-3xl">
+      <Animated className="mx-6 mb-20 text-3xl md:mx-20">
         <h2>{ContactDesc}</h2>
       </Animated>
-      <Animated className="mb-4 mx-6 text-[28px] md:text-5xl pb-4 border-b hover-link">
+      <Animated className="hover-link mx-6 mb-4 border-b pb-4 text-[28px] md:text-5xl">
         <a href={`mailto:${Email}`}>{Email}</a>
       </Animated>
-      <Animated className="mb-20 mx-6 text-3xl md:text-5xl pb-4 text-end border-b">
+      <Animated className="mx-6 mb-20 border-b pb-4 text-end text-3xl md:text-5xl">
         <p>{PhoneNumber}</p>
       </Animated>
       <div className="mx-10">
-        <div className="flex justify-around items-left flex-col md:flex-row gap-10">
+        <div className="items-left flex flex-col justify-around gap-10 md:flex-row">
           <div className="flex flex-col gap-4">
             <Animated>
               <p className="text-3xl font-bold">My Digital Spaces.</p>
@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-col">
             <Animated>
-              <p className="text-3xl font-bold mb-2">Location.</p>
+              <p className="mb-2 text-3xl font-bold">Location.</p>
             </Animated>
             <Animated>
               <p className="text-2xl">{Location}</p>

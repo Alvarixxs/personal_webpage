@@ -14,13 +14,13 @@ import ProjectCard from "@/components/shared/cards/ProjectCard";
 const Projects = () => {
   return (
     <section className="section">
-      <Animated className="text-[27px] mb-10 lg:ml-32 mx-6">
+      <Animated className="mx-6 mb-10 text-[27px] lg:ml-32">
         <h2>{ProjectsSubtitle}</h2>
       </Animated>
-      <Animated className="text-5xl md:text-6xl mb-14 lg:mr-28 lg:ml-32 mx-6">
+      <Animated className="mx-6 mb-14 text-5xl md:text-6xl lg:ml-32 lg:mr-28">
         <h1>{ProjectsTitle}</h1>
       </Animated>
-      <div className="flex flex-wrap mx-10 mb-10 lg:mb-0 gap-10 justify-center">
+      <div className="mx-10 mb-10 flex flex-wrap justify-center gap-10 lg:mb-0">
         {ProjectsItems.map((item) => (
           <ProjectCard
             key={item.title}
@@ -34,7 +34,7 @@ const Projects = () => {
           />
         ))}
       </div>
-      <Link href="/projects/more" className="flex gap-1 mx-10">
+      <Link href="/projects/more" className="mx-10 flex gap-1">
         <Image
           src="/icons/arrow-right.svg"
           alt="arrow-right.svg"

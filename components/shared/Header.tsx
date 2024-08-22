@@ -3,8 +3,7 @@
 import React from "react";
 import { navLinks } from "@/constants";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 
 const Header = () => {
@@ -44,13 +43,13 @@ const Header = () => {
       <button className="mobile-header" onClick={handleClick}>
         <div
           className={`bar ${
-            pathname === "/mobile-menu" && "rotate-45 translate-y-2"
+            pathname === "/mobile-menu" && "translate-y-2 rotate-45"
           }`}
         />
         <div className={`bar ${pathname === "/mobile-menu" && "opacity-0"}`} />
         <div
           className={`bar ${
-            pathname === "/mobile-menu" && "-rotate-45 -translate-y-3"
+            pathname === "/mobile-menu" && "-translate-y-3 -rotate-45"
           }`}
         />
       </button>

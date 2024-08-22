@@ -1,12 +1,12 @@
 import Animated from "@/components/shared/Animated";
 import ProjectCardSm from "@/components/shared/cards/ProjectCardSm";
-import { ProjectsItems, ProjectsMoreItems } from "@/constants";
+import { ProjectsMoreItems } from "@/constants";
 import React from "react";
 
 const ProjectsMore = () => {
   return (
     <div className="projects-more">
-      <Animated className="lg:sticky lg:top-20 lg:left-0 pt-10 lg:pt-0 pb-16 bg-black z-10">
+      <Animated className="z-10 bg-black pb-16 pt-10 lg:sticky lg:left-0 lg:top-20 lg:pt-0">
         <h1 className="text-5xl">ALL PROJECTS.</h1>
       </Animated>
       <div className="flex flex-col gap-10 pt-0 md:pt-10">

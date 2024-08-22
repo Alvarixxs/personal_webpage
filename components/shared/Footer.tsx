@@ -6,7 +6,7 @@ const Footer = () => {
       <p>Created by Alvaro.</p>
       <p>© 2024.</p>
     </div>
-  )
-}
+  );
+};
 
 export default Footer;

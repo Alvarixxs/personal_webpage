@@ -14,33 +14,33 @@ const ProjectCardSm = ({
   imageSrc,
 }: ProjectProps) => {
   return (
-    <div className="flex flex-col md:flex-row gap-5">
-      <Link href={website ? website : github} target="_blank">
+    <div className="flex flex-col gap-5 md:flex-row">
+      <Link href={website || github} target="_blank">
         <Animated className="rounded-xl">
           <Image
             src={imageSrc}
             alt={`thumbnail for ${title}`}
             width={150}
             height={150}
-            className="hover:scale-110 transition-transform duration-1000"
+            className="transition-transform duration-1000 hover:scale-110"
           />
         </Animated>
       </Link>
       <div className="flex flex-col gap-1">
         <Animated>
-          <div className="flex gap-2 items-end">
+          <div className="flex items-end gap-2">
             <h3 className="text-lg font-medium">{title}</h3>
-            <Link href={github} target="_blank" className="underline text-sm">
+            <Link href={github} target="_blank" className="text-sm underline">
               Github
             </Link>
           </div>
         </Animated>
         <Animated>
-          <div className="flex gap-2 text-md font-light">
-            <p className="text-orange-600 rounded-full border border-orange-600 px-2 flex items-center">
+          <div className="text-md flex gap-2 font-light">
+            <p className="flex items-center rounded-full border border-orange-600 px-2 text-orange-600">
               {year}
             </p>
-            <p className="text-orange-600 rounded-full border border-orange-600 px-2 text-center">
+            <p className="rounded-full border border-orange-600 px-2 text-center text-orange-600">
               {skills.join(" · ")}
             </p>
           </div>

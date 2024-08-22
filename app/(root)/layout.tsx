@@ -5,8 +5,8 @@ import Footer from "@/components/shared/Footer";
 import ConditionalBackground from "@/components/shared/ConditionalBackground";
 
 export default function Layout({
-                                     children,
-                                   }: Readonly<{
+  children,
+}: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
