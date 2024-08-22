@@ -12,7 +12,7 @@
 
 # Personal Webpage
 
-Welcome to my personal webpage! This project is a modern, responsive portfolio site designed to showcase my skills, projects, and professional background. It is built using **HTML**, **CSS**, and **JavaScript**, emphasizing a clean and intuitive user experience.  
+Welcome to my personal webpage! This project is a modern, responsive portfolio site designed to showcase my skills, projects, and professional background. It is built using **Nextjs**, **Typescript**, and **TailwindCSS**, emphasizing a clean and intuitive user experience.  
 
 Link to my socials:  
 <a href="http://www.linkedin.com/in/álvaro-de-santos-de-la-pedraja-101391308">![linkedin][linkedin]</a> <a href="https://github.com/Alvarixxs">![github][github]</a>
