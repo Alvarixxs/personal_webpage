@@ -273,7 +273,7 @@ export const ContactDesc =
 
 export const Email = "alvarodesants@gmail.com";
 
-export const PhoneNumber = "(+34) 656 413 858";
+export const PhoneNumber = "+1 (514) 602-6071";
 
 export const ContactItems = [
   {
