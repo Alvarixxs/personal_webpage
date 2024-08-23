@@ -285,7 +285,7 @@ export const ContactItems = [
     label: "Linkedin",
     imageSrc: "/icons/linkedin.svg",
     route:
-      "https://www.linkedin.com/in/álvaro-de-santos-de-la-pedraja-101391308",
+      "https://www.linkedin.com/in/alvaro-de-santos-de-la-pedraja-101391308",
   },
   {
     label: "Github",
