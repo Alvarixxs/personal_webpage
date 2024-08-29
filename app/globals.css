@@ -43,7 +43,7 @@
 }
 
 .logo {
-  @apply absolute lg:fixed top-3 md:top-10 left-4 md:left-14 fill-white scale-75 md:scale-100;
+  @apply fixed top-3 md:top-10 left-4 md:left-14 scale-75 md:scale-100 z-30;
 }
 
 .awards-table {
