@@ -19,15 +19,17 @@ const Header = () => {
   };
 
   return pathname === "/projects/more" ? (
-    <Link href="/projects" className="projects-more-header">
-      <Image
-        src="/icons/arrow-left.svg"
-        alt="arrow left"
-        width={40}
-        height={40}
-        className="white-logo hover-logo"
-      />
-    </Link>
+    <div className="projects-more-header">
+      <Link href="/projects">
+        <Image
+          src="/icons/arrow-left.svg"
+          alt="arrow left"
+          width={40}
+          height={40}
+          className="white-logo hover-logo"
+        />
+      </Link>
+    </div>
   ) : (
     <div className="header">
       <ul className="desktop-header">

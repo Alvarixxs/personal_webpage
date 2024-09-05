@@ -50,20 +50,22 @@ const Awards = () => {
         ))}
       </div>
       <Animated className="mx-8 lg:ml-32">
-        <Link
-          className="flex items-center gap-2 text-lg"
-          href={ResumeRoute}
-          target="_blank"
-        >
-          <Image
-            src="/icons/arrow-right.svg"
-            alt="right arrow"
-            width={15}
-            height={15}
-            className="white-logo"
-          />
-          <p>DOWNLOAD CV</p>
-        </Link>
+        <div className="flex">
+          <Link
+            className="flex items-center gap-2 self-start text-lg"
+            href={ResumeRoute}
+            target="_blank"
+          >
+            <Image
+              src="/icons/arrow-right.svg"
+              alt="right arrow"
+              width={15}
+              height={15}
+              className="white-logo"
+            />
+            <p>DOWNLOAD CV</p>
+          </Link>
+        </div>
       </Animated>
     </section>
   );

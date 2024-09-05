@@ -63,13 +63,14 @@ const Skills = () => {
           ))}
         </div>
       </div>
-      <Animated className="">
+      <Animated>
         <div className="flex flex-wrap justify-evenly gap-10">
           {LangItems.map((item) => (
             <Link
               key={item.route}
               href={item.route}
               target={item.route && "_blank"}
+              className="group"
             >
               <p className="text-lg font-bold uppercase">{item.language}</p>
               <p>{item.proficiency}</p>
@@ -78,7 +79,7 @@ const Skills = () => {
                 alt=""
                 width={15}
                 height={15}
-                className="white-logo mt-2"
+                className="white-logo mt-2 transition-transform duration-500 group-hover:translate-x-2"
               />
             </Link>
           ))}
