@@ -1,5 +1,5 @@
 import Animated from "@/components/shared/Animated";
-import ProjectCardSm from "@/components/shared/cards/ProjectCardSm";
+import ProjectCardSm from "@/components/cards/ProjectCardSm";
 import { ProjectsMoreItems } from "@/constants";
 import React from "react";
 

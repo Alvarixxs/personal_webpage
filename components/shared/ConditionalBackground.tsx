@@ -2,21 +2,20 @@
 
 import React from "react";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
 
 const ConditionalBackground = ({ children }: { children: React.ReactNode }) => {
   const pathname = usePathname();
 
   return (
     <main className="root">
-      <Image
+      <img
         src="/images/macos-monterey-compressed.jpg"
         alt=""
         width={1280}
         height={1000}
         className={`left-0 top-0 -z-20 hidden h-screen lg:fixed lg:block`}
       />
-      <Image
+      <img
         src="/images/home-self.jpg"
         alt=""
         width={1280}

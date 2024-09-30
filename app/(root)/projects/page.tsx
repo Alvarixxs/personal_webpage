@@ -3,7 +3,7 @@ import Animated from "@/components/shared/Animated";
 import { ProjectsItems, ProjectsSubtitle, ProjectsTitle } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
-import ProjectCard from "@/components/shared/cards/ProjectCard";
+import ProjectCard from "@/components/cards/ProjectCard";
 
 const Projects = () => {
   return (

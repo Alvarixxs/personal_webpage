@@ -2,7 +2,7 @@ import React from "react";
 import { ProjectProps } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
-import Animated from "../Animated";
+import Animated from "../shared/Animated";
 
 const ProjectCardSm = ({
   title,

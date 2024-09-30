@@ -40,14 +40,14 @@ export const ProjectsSubtitle = "PROJECTS";
 
 export const ProjectsItems = [
   {
-    title: "IMAGINIFY",
+    title: "DEV OVERFLOW",
     description:
-      "Web app that simulates a stock photo database for users. Users can log in to the application and perform transformations to images leveraging the power of AI. Users can also upload, delete and update photos.",
-    github: "https://github.com/Alvarixxs/nextjs-imaginify",
-    website: "https://nextjs-imaginify-omega.vercel.app",
+      "Modern stack overflow copy. Currently inDevFlow is a full-stack Q&A platform inspired by StackOverflow. It features AI-powered answers using the OpenAI API, advanced voting mechanisms, a reputation system, and post recommendations based on user activity.",
+    github: "https://github.com/Alvarixxs/nextjs-devflow",
+    website: "https://nextjs-devflow-rho.vercel.app/",
     year: "2024",
     skills: ["Fullstack", "Next.js", "TypeScript"],
-    imageSrc: "/images/imaginify.png",
+    imageSrc: "/images/dev-overflow.png",
   },
   {
     title: "RATE REPOSITORY APP",
@@ -61,6 +61,16 @@ export const ProjectsItems = [
 ];
 
 export const ProjectsMoreItems = [
+  {
+    title: "DEV OVERFLOW",
+    description:
+      "Modern stack overflow copy. Currently inDevFlow is a full-stack Q&A platform inspired by StackOverflow. It features AI-powered answers using the OpenAI API, advanced voting mechanisms, a reputation system, and post recommendations based on user activity.",
+    github: "https://github.com/Alvarixxs/nextjs-devflow",
+    website: "https://nextjs-devflow-rho.vercel.app/",
+    year: "2024",
+    skills: ["Fullstack", "Next.js", "TypeScript"],
+    imageSrc: "/images/dev-overflow.png",
+  },
   {
     title: "IMAGINIFY",
     description:
@@ -260,7 +270,7 @@ export const AwardsItems = [
   },
 ];
 
-export const ResumeRoute = "/assets/files/Resume-AlvarodeSantos.pdf";
+export const ResumeRoute = "/assets/files/Resume-AlvarodeSantos-30-09-24.pdf";
 
 /* contact section */
 
